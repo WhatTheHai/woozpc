@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../assets/circ.png);
+    background-repeat: repeat;
+}
+
+.row {
+    display: flex;
+}
+
+body>.column {
+    flex: 50%;
+    float: left;
+}
+
+.mid {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.blij img {
+    height: 110px;
+}
