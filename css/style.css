@@ -32,3 +32,46 @@ body>.column {
 .spoiler:hover {
     color: white
 }
+
+.image:hover {
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.imageZoom:hover {
+    animation-duration: 3s;
+    animation-name: bigboy;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bigboy {
+    from {
+        width: 100%;
+    }
+    50% {
+        width: 400%;
+    }
+    to {
+        width: 100%;
+    }
+}
