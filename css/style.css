@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../assets/circ.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../assets/circ.png);
     background-repeat: repeat;
 }
 
@@ -30,7 +30,7 @@ body>.column {
 }
 
 .spoiler:hover {
-    color: white
+    color: white;
 }
 
 .image:hover {
