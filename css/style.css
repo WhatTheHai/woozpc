@@ -24,3 +24,11 @@ body>.column {
 .blij img {
     height: 110px;
 }
+
+.spoiler {
+    color: transparent;
+}
+
+.spoiler:hover {
+    color: white
+}
