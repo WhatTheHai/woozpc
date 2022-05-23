@@ -1,0 +1,54 @@
+body, html {
+    height: 99%;
+    font-family: 'Open Sans';
+    font-size: 22px;
+  }
+
+a:link {
+    color: rgb(64, 61, 238)
+}
+
+a:visited {
+    color: rgb(14, 11, 211)
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 { 
+    color: white; 
+    /* text-shadow: 2px 2px rgb(35, 32, 192); */
+}
+/* h1 { 
+    color: #37B5BC; 
+    text-shadow: 1px 1px #1c595c;
+} Lazy to save the colours somewhere else */
+.bg-image {
+    background-image: url("/assets/japan.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woozpc {
+    width: 25%;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
