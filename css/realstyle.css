@@ -44,16 +44,20 @@ h1 {
     width: 25%;
 }
 
+.bg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 10vh 0;
+}
+
 .bg-text {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -40vh);
     z-index: 2;
     width: 80%;
     padding: 20px;
