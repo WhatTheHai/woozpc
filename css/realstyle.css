@@ -18,12 +18,7 @@ a:visited {
 }
 h1 { 
     color: white; 
-    /* text-shadow: 2px 2px rgb(35, 32, 192); */
 }
-/* h1 { 
-    color: #37B5BC; 
-    text-shadow: 1px 1px #1c595c;
-} Lazy to save the colours somewhere else */
 .bg-image {
     background-image: url("/assets/japan.jpg");
     filter: blur(0.5vmax);
@@ -56,10 +51,18 @@ h1 {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     color: white;
-    font-weight: bold;
+    font-weight: 300;
     border: 3px solid #f1f1f1;
     z-index: 2;
     width: 80%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+}
+.centre-list {
+    text-align: center;
+}
+
+.centre-list > ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
