@@ -25,8 +25,13 @@ body>.column {
     height: 110px;
 }
 
+.tab-left {
+    margin-left: 0.25rem;
+}
+
 .spoiler {
     color: transparent;
+    background-color: #121212;
 }
 
 .spoiler:hover {
